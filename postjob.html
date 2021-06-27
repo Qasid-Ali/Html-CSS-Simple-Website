@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="active"><img src="graphic/logo.png"> </li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="wantjob.html">Want Jobs</a></li>
+            <li><a href="postjob.html">Post Jobs</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="form-signup">
+            <form class="my-form">
+                <div>
+                    <h2>Post A Job</h2>
+                </div>
+                <div>
+                    <label for="lbid1">Company Name</label>
+                    <input type="text" id="labid1" name="fname" placeholder="i.e Company Name" required />
+                </div>
+                <div>
+                    <label for="lbid2">Location</label>
+                    <input type="text" list="browsers" name="browser" placeholder="Set Location" />
+                    <datalist id="browsers">
+                        <option value="Karachi">
+                        <option value="Rawalpindi">
+                        <option value="Lahore">
+                        <option value="Islamabad">
+                        <option value="Others">
+                    </datalist>
+                </div>
+                <div>
+                    <label for="lbid3">Experience</label>
+                    <textarea class="textarea" name="bio" placeholder="Experience" required></textarea>
+                </div>
+                <div>
+                    <label for="lbid3">Skill</label>
+                    <input type="checkbox" name="skill1" value="Designing">&nbsp;Grpahic Designing<br>
+                    <input type="checkbox" name="skill2" value="Development">&nbsp;Web Development
+                    <input type="checkbox" name="skill3" value="Advertising">&nbsp; Advertising<br>
+                    <input type="checkbox" name="skill1" value="Writing">&nbsp;Writing
+                    <input type="checkbox" name="skill1" value="Ankering">&nbsp;Others
+                </div>
+                <div>
+                    <label for="lbid5">Salary</label>
+                    <input type="number" id="labid5" name="pwd2" placeholder="15000-25000" required />
+                </div>
+                <div>
+                    <label>Job Description </label>
+                    <textarea class="textarea" name="bio" placeholder="Define A Job.." required></textarea>
+                </div>
+                <div class="submit">
+                    <input type="submit" name="submit" value="Post Job" />
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        CopyRight &copy; All Right Reserved. &nbsp; Job's Portal
+    </footer>
+</body>
+
+</html>
